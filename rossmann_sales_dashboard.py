@@ -1,8 +1,10 @@
 """Rossmann Sales Prediction Website.
 
-Run in the VS Code terminal:
-    pip install streamlit pandas numpy plotly scikit-learn xgboost
-    streamlit run rossmann_sales_dashboard.py
+Run with the VS Code "Run Rossmann Sales Dashboard" launch profile, or:
+    python -m streamlit run rossmann_sales_dashboard.py
+
+Do not run this file directly with Python; Streamlit requires its own script
+runner to initialize the app context.
 """
 
 from pathlib import Path
